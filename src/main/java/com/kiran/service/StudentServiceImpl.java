@@ -34,7 +34,7 @@ public class StudentServiceImpl implements StudentService {
 	public boolean loginStd(LoginAuth login) {
 		System.out.println(login.getMailid());
 		    Optional<Student> std=repo.findByMailid(login.getMailid());
-		
+		 System.out.println("login student");
 		    if(!std.isEmpty()) {
 		    	System.out.println("found");
 		    	return true;

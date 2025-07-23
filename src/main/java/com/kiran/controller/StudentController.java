@@ -22,6 +22,7 @@ public class StudentController {
 	@PostMapping("/register")
 	public Student studentRegister(@RequestBody StudentAuth studentauth)
 	{
+		System.out.println("new feature");
 		  return  service.registerStudent(studentauth);
 		       
 		       

@@ -9,6 +9,7 @@ public class StudentManagementSystemApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(StudentManagementSystemApplication.class, args);
 		System.out.print(false);
+		System.out.println("new feature");
 	}
 
 }
